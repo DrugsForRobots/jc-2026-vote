@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="How the 2026 Libertarian Party convention elected two of seven Judicial Committee members, why the other five were appointed, and the questions the record leaves open.">
+<link rel="canonical" href="https://drugsforrobots.github.io/jc-2026-vote/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The 2026 Judicial Committee Vote">
+<meta property="og:title" content="The 2026 Judicial Committee Vote">
+<meta property="og:description" content="How the 2026 Libertarian Party convention elected two of seven Judicial Committee members, why the other five were appointed, and the questions the record leaves open.">
+<meta property="og:url" content="https://drugsforrobots.github.io/jc-2026-vote/">
+<meta property="og:image" content="https://drugsforrobots.github.io/jc-2026-vote/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The 2026 Judicial Committee Vote: two seats elected, five appointed">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The 2026 Judicial Committee Vote">
+<meta name="twitter:description" content="How the 2026 Libertarian Party convention elected two of seven Judicial Committee members, why the other five were appointed, and the questions the record leaves open.">
+<meta name="twitter:image" content="https://drugsforrobots.github.io/jc-2026-vote/preview.png">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The 2026 Judicial Committee Vote</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:ital,wght@0,400..700;1,400&display=swap">
+<style>
+  /* Layout: the LP family's navy sheet; tiles, then the round-one chart, then the rule chain as a branching diagram, then the floor sequence as a timeline. Single dark look by design. */
+  :root {
+    --navy: #13213C; --panel: #1C2D4D; --deep: #0F1A30; --cream: #F5F1E8; --mist: #C5CFDF; --dim: #A3AFC4;
+    --gold: #E2B13C; --slate: #6B7C9E; --line: rgba(197, 207, 223, 0.18); --warn: #E8875A;
+    --serif: 'Libre Baskerville', Georgia, serif; --sans: 'Public Sans', Arial, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--deep); color: var(--cream); font-family: var(--sans); line-height: 1.5;
+         padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; }
+  .sheet { max-width: 72rem; margin: 0 auto; background: var(--navy); border-radius: 16px; padding: 3rem; display: grid; gap: 2.75rem; color: var(--cream); }
+  @media (max-width: 40rem) { .sheet { padding: 1.25rem; gap: 2rem; } }
+  .sheet p, .sheet h1, .sheet h2, .sheet h3, .sheet span, .sheet b, .sheet td, .sheet summary { color: var(--cream); }
+  .sheet .note, .sheet .lede, .sheet q, .sheet .label, .sheet .what { color: var(--mist); }
+  .sheet .fine { color: var(--dim); }
+  .sheet .eyebrow, .sheet .cite, .sheet .num, .sheet th, .sheet .subtitle { color: var(--gold); }
+  h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+  h2 { font-family: var(--serif); font-weight: 700; font-size: clamp(1.3rem, 2.6vw, 1.8rem); line-height: 1.2; margin: 0; text-wrap: balance; }
+  h3 { font-family: var(--sans); font-weight: 700; font-size: 1.02rem; line-height: 1.3; margin: 0; }
+  p { margin: 0; max-width: 70ch; }
+  .subtitle { font-family: var(--serif); font-style: italic; font-size: 1.1rem; }
+  .eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; margin: 0; }
+  .rule { width: 6rem; height: 4px; background: var(--gold); }
+  .lede { font-size: clamp(1.05rem, 1.8vw, 1.25rem); }
+  .lede b, .note b { color: var(--cream); }
+  .note { font-size: 0.92rem; }
+  .fine { font-size: 0.82rem; }
+  section { display: grid; gap: 1rem; min-width: 0; }
+  .head { display: grid; gap: 0.4rem; }
+  .card { background: var(--panel); border-radius: 16px; padding: 1.25rem 1.5rem; display: grid; gap: 0.6rem; align-content: start; min-width: 0; }
+  .tiles { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
+  .num { font-family: var(--serif); font-weight: 700; font-size: clamp(2.2rem, 4vw, 3rem); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .label { font-size: 0.95rem; }
+  .cite { font-size: 0.78rem; font-weight: 600; white-space: nowrap; }
+
+  /* chart */
+  .chart { position: relative; }
+  .bars { display: grid; gap: 6px; }
+  .bar { display: grid; grid-template-columns: 9.5rem 1fr 3.5rem; gap: 0.75rem; align-items: center; font-size: 0.88rem; }
+  .bar .who { text-align: right; color: var(--mist); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar.won .who { color: var(--cream); font-weight: 700; }
+  .bar .track { position: relative; height: 18px; }
+  .bar .fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--slate); border-radius: 0 4px 4px 0; }
+  .bar.won .fill { background: var(--gold); }
+  .bar .val { font-variant-numeric: tabular-nums; color: var(--mist); }
+  .bar.won .val { color: var(--cream); font-weight: 700; }
+  .bar:hover .fill, .bar:focus-visible .fill { filter: brightness(1.15); }
+  .bar:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
+  .bar .track .maj { position: absolute; top: -4px; bottom: -4px; width: 0; border-left: 2px dashed var(--cream); }
+  .axis { display: grid; grid-template-columns: 9.5rem 1fr 3.5rem; gap: 0.75rem; font-size: 0.78rem; color: var(--dim); }
+  .axis .scale { position: relative; height: 1.2rem; }
+  .axis .scale span { position: absolute; transform: translateX(-50%); color: var(--dim); }
+  .key { display: flex; flex-wrap: wrap; gap: 1.1rem; font-size: 0.85rem; color: var(--mist); }
+  .sw { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; vertical-align: -1px; margin-right: 0.35rem; }
+  .tip { position: absolute; pointer-events: none; background: var(--deep); border: 1px solid var(--gold); border-radius: 8px; padding: 0.4rem 0.65rem; font-size: 0.85rem; color: var(--cream); white-space: nowrap; }
+  details { background: var(--panel); border-radius: 12px; padding: 0.75rem 1rem; }
+  summary { cursor: pointer; font-weight: 600; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 0.6rem; font-variant-numeric: tabular-nums; }
+  th { text-align: left; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 0.6rem; border-bottom: 1px solid var(--gold); }
+  td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--line); }
+  td.n, th.n { text-align: right; }
+
+  /* rule chain diagram */
+  .chain { display: grid; gap: 0.5rem; justify-items: center; }
+  .node { background: var(--panel); border-radius: 12px; padding: 0.9rem 1.15rem; width: min(100%, 34rem); display: grid; gap: 0.3rem; border: 1px solid var(--line); }
+  .node.gap { border: 1px dashed var(--gold); background: var(--deep); }
+  .arrow { width: 2px; height: 1.4rem; background: var(--gold); position: relative; }
+  .arrow::after { content: ""; position: absolute; left: -5px; bottom: -2px; border: 6px solid transparent; border-top-color: var(--gold); border-bottom: 0; }
+  .fork { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); width: 100%; }
+  .branch { background: var(--panel); border-radius: 12px; padding: 1rem 1.15rem; display: grid; gap: 0.45rem; align-content: start; }
+  .branch .tag { font-family: var(--serif); font-style: italic; font-size: 0.95rem; }
+  .branch.chosen { border: 1px solid var(--gold); }
+  .sheet .chip { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; padding: 0.15rem 0.5rem; border-radius: 999px; background: var(--gold); color: var(--navy); }
+  .sheet .chip.no { background: var(--warn); color: var(--navy); }
+  .sheet .chip.open { background: transparent; border: 1px solid var(--mist); color: var(--mist); }
+
+  /* floor timeline */
+  .steps { display: grid; gap: 0; }
+  .step { display: grid; grid-template-columns: 2.25rem 1fr; gap: 0.9rem; }
+  .step .dot { width: 2.25rem; display: grid; justify-items: center; }
+  .step .dot i { display: block; width: 14px; height: 14px; border-radius: 50%; background: var(--gold); margin-top: 0.35rem; }
+  .step .dot b { display: block; width: 2px; flex: 1; min-height: 1.5rem; background: var(--line); }
+  .step .dot { display: flex; flex-direction: column; align-items: center; }
+  .step .body { padding-bottom: 1.1rem; display: grid; gap: 0.35rem; }
+  .step .body .row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+  .grid2 { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  .sheet a { color: var(--gold); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .sheet a:hover { text-decoration-thickness: 2px; }
+  .sheet a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 2px; }
+  .day { font-family: var(--serif); font-style: italic; font-size: 1rem; color: var(--gold); padding: 0.2rem 0 0.8rem 3.15rem; }
+  .sheet .chip.held { background: var(--mist); color: var(--navy); }
+</style>
+
+</head>
+<body>
+<div class="sheet">
+  <header class="head" style="gap:1rem">
+    <h1>The 2026 Judicial Committee Vote</h1>
+    <p class="subtitle">Grand Rapids, May 24–25, 2026: one round, two seats, five appointed</p>
+    <div class="rule"></div>
+    <p class="lede">Delegates elected <b>two of seven</b> Judicial Committee members on a single ballot. The chair ruled that a second round needed a two-thirds vote to suspend the rules. Over two days, every attempt at one failed, and the two winners appointed the other five. No vote ever asked the delegates whether the rules already required a second round, so that question is still <b>contested</b>.</p>
+  </header>
+
+  <section class="tiles" aria-label="Headline Figures">
+    <div class="card"><div class="num">610</div><div class="label">Ballots Cast In Round One</div></div>
+    <div class="card"><div class="num">306</div><div class="label">Needed For A Seat: A Majority Of Ballots Cast</div></div>
+    <div class="card"><div class="num">2 of 7</div><div class="label">Seats Filled By Election</div></div>
+    <div class="card"><div class="num">5</div><div class="label">Seats Then Filled By The Two Who Won</div></div>
+  </section>
+
+  <!-- CHART -->
+  <section aria-labelledby="round">
+    <div class="head"><p class="eyebrow">Round One</p><h2 id="round">Seventeen Candidates, Two Over The Line</h2>
+    <p class="note">Ballots naming each candidate, out of 610. The dashed line is a majority, 306. Jake Porter finished five ballots short.</p>
+    <div class="key"><span><span class="sw" style="background:var(--gold)"></span>Elected</span><span><span class="sw" style="background:var(--slate)"></span>Not elected</span><span><span class="sw" style="background:transparent;border:2px dashed var(--cream)"></span>Majority, 306</span></div></div>
+    <div class="chart card" id="chart">
+      <div class="bars" id="bars" role="list" aria-label="Round one ballots by candidate"></div>
+      <div class="axis" aria-hidden="true"><span></span><div class="scale" id="scale"></div><span></span></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <details><summary>Show The Numbers As A Table</summary>
+      <table id="tbl"><tr><th>Candidate</th><th class="n">Ballots</th><th class="n">Share</th></tr></table>
+      <p class="fine" style="margin-top:0.5rem">Also on the ballot: write-ins 9 (1.48%), None of the Above 2 (0.33%). Each ballot could approve any number of candidates.</p>
+    </details>
+    <p class="fine">Source: <a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1#page=32" target="_blank" rel="noopener">2026 convention minutes (Draft V2), p.32</a>.</p>
+  </section>
+
+  <!-- RULE CHAIN -->
+  <section aria-labelledby="chain">
+    <div class="head"><p class="eyebrow">How The Rules Connect</p><h2 id="chain">Where The Rules Run Out</h2>
+    <p class="note">The Judicial Committee has no voting procedure of its own. It borrows the at-large one, and that one stops after a single ballot.</p></div>
+    <div class="chain">
+      <div class="node"><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=8" target="_blank" rel="noopener">Bylaws Art. 8.1</a></span><h3>Seven Members, Elected Every Four Years</h3><p class="note"><q>The Judicial Committee shall be composed of seven Party members elected at each regular</q> non-presidential convention.</p></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node"><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=18" target="_blank" rel="noopener">Convention Rule 9</a></span><h3>Borrow The At-Large Method</h3><p class="note">Elections run <q>in the same manner as specified for at-large members of the National Committee</q>.</p></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node"><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=18" target="_blank" rel="noopener">Convention Rule 8.2</a></span><h3>One Approval Ballot, A Majority Of Ballots To Win</h3><p class="note">Each delegate votes for any number of candidates. <q>The top five candidates receiving a majority vote of the ballots cast shall be elected.</q></p></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node gap"><span class="cite">The Gap</span><h3>Rule 8.2 Says Nothing About A Second Ballot</h3><p class="note">Officers get runoffs written into <a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=18" target="_blank" rel="noopener">Rule 8.1c</a>, and presidential nominees into <a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=17" target="_blank" rel="noopener">Rule 7.2</a>. At-large and Judicial Committee seats get no such sentence.</p></div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="fork">
+        <div class="branch chosen"><span class="tag" style="color:var(--gold)">Reading 1 · The Chair’s</span><h3>Rule 8.2 Is Complete. Another Ballot Needs 2/3 To Suspend The Rules.</h3><p class="note">Ruled the second-round point of order <q>NOT WELL TAKEN on the basis that no such requirement exists in the bylaws</q>. The 2020 Bylaws Committee read it the same way, describing <q>a lack of a procedure to automatically move to additional rounds of voting without a need to suspend the rules</q>.</p><span class="cite"><a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1#page=32" target="_blank" rel="noopener">2026 minutes p.32</a> · <a href="https://lp.org/wp-content/uploads/2024/10/CONVENTION-MINUTES_2020_PART2-FINAL.pdf#page=174" target="_blank" rel="noopener">2020 minutes p.174</a></span></div>
+        <div class="branch"><span class="tag" style="color:var(--mist)">Reading 2 · Robert’s Fills The Gap</span><h3>Art. 16 Applies Robert’s, & Robert’s Repeats The Ballot.</h3><p class="note">Where LP rules are silent, Robert’s governs, and <q>if any office remains unfilled after the first ballot, the balloting is repeated for that office as many times as necessary to obtain a majority vote for a single candidate</q>. <q>An election should be completed at the session at which it is taken up, unless it is impossible or impractical to do so.</q></p><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=13" target="_blank" rel="noopener">Art. 16</a> · <a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-46" target="_blank" rel="noopener">RONR 46:32, 46:44</a></span></div>
+      </div>
+    </div>
+    <p class="note"><b>Precedent:</b> in 2014, the first election under this rule, four LNC at-large candidates won majorities and two tied for the fifth seat at 45.48%. The delegates filled it themselves: <q>Mr. Redpath moved to suspend the requirements of Convention Rule 8.2 and to instead fill the fifth at-large position by coin toss between Doug Craig and Guy McLendon, though they did not receive majority votes; the motion passed on a voice vote.</q> <span class="cite"><a href="https://lp.org/wp-content/uploads/2024/10/2014_Convention_minutes_approved.pdf#page=43" target="_blank" rel="noopener">2014 minutes p.43</a></span></p>
+  </section>
+
+  <!-- FLOOR -->
+  <section aria-labelledby="floor">
+    <div class="head"><p class="eyebrow">On The Floor</p><h2 id="floor">How The Question Was Closed</h2>
+    <p class="note">In the order the minutes record it, from the round-one results on Sunday through the last attempt on Monday. One step comes only from Ken Moellman’s own account, and is marked so; he is one of the two members who made the appointments.</p></div>
+    <div class="steps card">
+      <p class="day">Sunday, May 24</p>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Two Declared Elected</h3><span class="chip">ELECTED</span></div><p class="note"><q>Having received a majority of the 610 ballots cast, Ken Moellman and Avens O'Brien were ELECTED to the Judicial Committee.</q></p></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Point Of Order: Go To A Second Round</h3><span class="chip no">NOT WELL TAKEN</span></div><p class="note">Paul Bracco’s point was ruled against <q>on the basis that no such requirement exists in the bylaws</q>.</p></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Motion To Suspend The Rules For A Second Round</h3><span class="chip no">FAILED</span></div><p class="note">Aaron Starr’s motion needed two-thirds. It failed by a show of hands, with no count recorded.</p></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Point Of Order: The Rules Don’t Conflict With Robert’s</h3><span class="chip no">NOT WELL TAKEN</span></div><p class="note">Nick Ciesielski’s point was ruled against <q>on the basis that a motion to suspend the rules to move to a second round of voting had already failed</q>, which doesn’t address whether Robert’s already required one. By Moellman’s account, <q>he appealed the ruling twice; on each occasion the chair answered that this was "not a conversation," and neither appeal was put</q>. Moellman’s own view: <q>My personal opinion is that the initial challenge to the chair's ruling made by Mr. Ciesielski should have been heard by the body</q>.</p><span class="cite"><a href="https://thirdpartywatch.com/wp-content/uploads/2026/08/Procedure-for-Populating-the-Judicial-Committee.pdf#page=3" target="_blank" rel="noopener">Moellman pp.3–4</a></span></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Appeal From The Chair’s Ruling</h3><span class="chip no">RULED DILATORY</span></div><p class="note"><q>Paul Bracco (VA) APPEALED from the ruling of the Chair. Chair Nekhaila ruled the motion dilatory and OUT OF ORDER.</q> The delegates never voted on the appeal. Robert’s gives <q>any two members</q> the right to appeal.</p><span class="cite"><a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1#page=32" target="_blank" rel="noopener">2026 minutes pp.32–33</a> · <a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-24" target="_blank" rel="noopener">RONR 24:1</a></span></div></div>
+      <p class="day">Monday, May 25</p>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Resolution: Delegates Elect The Next Five</h3><span class="chip no">OUT OF ORDER</span></div><p class="note">Paul Bracco moved to suspend the rules for a resolution electing the five candidates ranked third through seventh. The chair first ruled it in order, then, after an appeal and a talk with the parliamentarian, reversed himself: <q>Chair Nekhaila ruled the resolution OUT OF ORDER because voting was ongoing.</q></p><span class="cite"><a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1#page=46" target="_blank" rel="noopener">2026 minutes pp.46–47</a></span></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Motion To Suspend The Rules For A Second Round</h3><span class="chip no">FAILED</span></div><p class="note">Alicia Percell’s motion. The chair ruled it in order, as <q>the motion was a valid motion to suspend the rules and reconsider something previously adopted</q>. It failed on a show of hands, then: <q>Division was called for and the motion FAILED by a standing vote.</q> No count is recorded.</p><span class="cite"><a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1#page=47" target="_blank" rel="noopener">2026 minutes pp.47–48</a></span></div></div>
+      <div class="step"><div class="dot"><i></i><b></b></div><div class="body"><div class="row"><h3>Appeal: Seat The Next Five</h3><span class="chip held">CHAIR SUSTAINED</span></div><p class="note"><b>Moellman’s account; not in the draft minutes.</b> Andrew Chadderdon moved to seat the next five. The chair ruled it too similar to Sunday’s motion, and on appeal, <q>The ruling of the chair was sustained: 285 to 192.</q> Moellman adds that this vote <q>does not establish the view of those delegates on the merits of seating additional members</q>.</p><span class="cite"><a href="https://thirdpartywatch.com/wp-content/uploads/2026/08/Procedure-for-Populating-the-Judicial-Committee.pdf#page=5" target="_blank" rel="noopener">Moellman pp.5–6</a></span></div></div>
+      <div class="step"><div class="dot"><i></i></div><div class="body"><div class="row"><h3>The Two Winners Fill Five Seats</h3><span class="chip open">CONTESTED</span></div><p class="note">Under <a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=8" target="_blank" rel="noopener">Art. 8.1</a>, <q>The remaining members of the Judicial Committee shall appoint new members if vacancies occur</q>. The full committee later upheld New Hampshire’s revocation <q>by a vote of 7 to 0</q>.</p><span class="cite"><a href="https://mywikis-wiki-media.s3.us-central-1.wasabisys.com/lpedia/JC-Opinion_2026-09-08_LPNH-Moellman.pdf#page=1" target="_blank" rel="noopener">JC opinion, LPNH, p.1</a></span></div></div>
+    </div>
+  </section>
+
+  <!-- QUESTIONS -->
+  <section aria-labelledby="open">
+    <div class="head"><p class="eyebrow">Still Open</p><h2 id="open">Three Questions The Record Doesn’t Settle</h2></div>
+    <div class="grid2">
+      <div class="card"><h3>Was A Second Ballot Already Required?</h3><p class="note">Reading 1 or Reading 2 above. The chair took the first. Two motions to suspend the rules failed and an appeal on a third attempt went the chair’s way, but each asked for a two-thirds exception, not whether one was needed; the appeals that would have put that question were ruled dilatory or never put. Moellman himself writes: <q>Clarity codified into the Convention Rules, in favor of either position, would be appreciated</q>.</p><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=18" target="_blank" rel="noopener">Rule 8.2</a> · <a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=13" target="_blank" rel="noopener">Art. 16</a> · <a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-46" target="_blank" rel="noopener">RONR 46:32</a> · <a href="https://thirdpartywatch.com/wp-content/uploads/2026/08/Procedure-for-Populating-the-Judicial-Committee.pdf#page=5" target="_blank" rel="noopener">Moellman p.5</a></span></div>
+      <div class="card"><h3>Are Never-Filled Seats “Vacancies”?</h3><p class="note">Art. 8.1 lets the remaining members fill vacancies. Robert’s treats an unfinished election as one to finish: <q>the election is taken up automatically at the next regular meeting</q>.</p><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=8" target="_blank" rel="noopener">Art. 8.1</a> · <a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-46" target="_blank" rel="noopener">RONR 46:44</a></span></div>
+      <div class="card"><h3>Can Two Act Where Five Is A Quorum?</h3><p class="note"><q>any five members shall constitute a quorum</q>, yet two members made all five appointments. The Bylaws don’t say what happens when fewer than a quorum remain.</p><span class="cite"><a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf#page=8" target="_blank" rel="noopener">Art. 8.1</a></span></div>
+    </div>
+    <p class="note">The Judicial Committee can’t hear a challenge to its own makeup; it isn’t among its seven matters. The forum is the next convention, where an action that conflicts with the bylaws can be raised as a continuing breach, long after the fact <span class="cite"><a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-23" target="_blank" rel="noopener">RONR 23:6</a></span>.</p>
+  </section>
+
+  <footer class="head" style="gap:0.5rem">
+    <p class="eyebrow">Sources</p>
+    <p class="fine"><a href="https://groups.google.com/group/lnc-public/attach/10fe125d32d547/LNC-Convention-Minutes_2026-DRAFT-V2.pdf?part=0.1" target="_blank" rel="noopener">2026 National Convention minutes, Draft V2</a> (posted to the LNC public list, August 30, 2026); <a href="https://lp.org/wp-content/uploads/2024/10/CONVENTION-MINUTES_2020_PART2-FINAL.pdf" target="_blank" rel="noopener">2020 convention minutes, second sitting</a>; <a href="https://lp.org/wp-content/uploads/2024/10/2014_Convention_minutes_approved.pdf" target="_blank" rel="noopener">2014 convention minutes</a>; <a href="https://lp.org/wp-content/uploads/2026-Indexed-LP-Bylaws-and-Convention-Rules-w-2026-JC-Rules-1.pdf" target="_blank" rel="noopener">Libertarian Party Bylaws and Convention Special Rules, May 2026</a>; Ken Moellman, <a href="https://thirdpartywatch.com/wp-content/uploads/2026/08/Procedure-for-Populating-the-Judicial-Committee.pdf" target="_blank" rel="noopener"><i>Procedure for Populating the Judicial Committee under Libertarian Party Bylaws</i></a>, Revision 20260821a, written in his personal capacity; <i>Robert’s Rules of Order Newly Revised</i>, 12th edition, which is under copyright, so its citations link to <a href="https://drugsforrobots.github.io/sclp-bylaws-ronr/#ronr-index" target="_blank" rel="noopener">an index of its sections</a>. Every quotation was checked word for word against its source page.</p>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    var data = [
+      ['Avens O’Brien', 387], ['Ken Moellman', 373], ['Jake Porter', 301], ['Roger Roots', 282], ['Stephan Kinsella', 275],
+      ['Mike Seebeck', 267], ['Ken Krawchuk', 246], ['Blay Tarnoff', 235], ['Marc Montoni', 224], ['Nathan Madden', 218],
+      ['Hector Roos', 215], ['Nick Ciesielski', 212], ['Caryn Ann Harlos', 205], ['Andrew Chadderdon', 166],
+      ['Charles Larkin', 163], ['Nolan Schmidt', 138], ['Mark King', 79]
+    ];
+    var total = 610, need = 306, max = 400;
+    var bars = document.getElementById('bars'), tbl = document.getElementById('tbl');
+    var tip = document.getElementById('tip'), chart = document.getElementById('chart');
+    data.forEach(function (d) {
+      var won = d[1] >= need, pct = (100 * d[1] / total).toFixed(1);
+      var row = document.createElement('div');
+      row.className = 'bar' + (won ? ' won' : ''); row.setAttribute('role', 'listitem'); row.tabIndex = 0;
+      row.setAttribute('aria-label', d[0] + ': ' + d[1] + ' ballots, ' + pct + '%' + (won ? ', elected' : ''));
+      row.innerHTML = '<span class="who"></span><span class="track"><span class="fill"></span><span class="maj"></span></span><span class="val"></span>';
+      row.querySelector('.who').textContent = d[0];
+      row.querySelector('.fill').style.width = (100 * d[1] / max) + '%';
+      row.querySelector('.maj').style.left = (100 * need / max) + '%';
+      row.querySelector('.val').textContent = d[1];
+      function show(e) {
+        tip.textContent = d[0] + ' · ' + d[1] + ' of 610 · ' + pct + '%' + (won ? ' · elected' : ' · ' + (need - d[1]) + ' short');
+        tip.hidden = false;
+        var r = chart.getBoundingClientRect(), b = row.getBoundingClientRect();
+        tip.style.left = Math.min(r.width - tip.offsetWidth - 8, Math.max(8, b.left - r.left + 160)) + 'px';
+        tip.style.top = (b.top - r.top - tip.offsetHeight - 6) + 'px';
+      }
+      row.addEventListener('mouseenter', show); row.addEventListener('focus', show);
+      row.addEventListener('mouseleave', function () { tip.hidden = true; }); row.addEventListener('blur', function () { tip.hidden = true; });
+      bars.appendChild(row);
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td></td><td class="n"></td><td class="n"></td>';
+      tr.children[0].textContent = d[0] + (won ? ' (elected)' : ''); tr.children[1].textContent = d[1]; tr.children[2].textContent = pct + '%';
+      tbl.appendChild(tr);
+    });
+    var scale = document.getElementById('scale');
+    [0, 100, 200, 306, 400].forEach(function (v) {
+      var s = document.createElement('span'); s.textContent = v; s.style.left = (100 * v / max) + '%';
+      if (v === 306) { s.style.color = 'var(--cream)'; s.style.fontWeight = '700'; }
+      scale.appendChild(s);
+    });
+  })();
+</script>
+
+</body>
+</html>
