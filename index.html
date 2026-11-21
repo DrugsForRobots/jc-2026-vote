@@ -33,7 +33,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--deep); color: var(--cream); font-family: var(--sans); line-height: 1.5;
          padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px 48px; }
-  .sheet { max-width: 72rem; margin: 0 auto; background: var(--navy); border-radius: 16px; padding: 3rem; display: grid; gap: 2.75rem; color: var(--cream); }
+  .sheet { max-width: 72rem; margin: 0 auto; background: var(--navy); border-radius: 16px; padding: 3rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.75rem; color: var(--cream); }
   @media (max-width: 40rem) { .sheet { padding: 1.25rem; gap: 2rem; } }
   .sheet p, .sheet h1, .sheet h2, .sheet h3, .sheet span, .sheet b, .sheet td, .sheet summary { color: var(--cream); }
   .sheet .note, .sheet .lede, .sheet q, .sheet .label, .sheet .what { color: var(--mist); }
@@ -57,6 +57,8 @@
   .num { font-family: var(--serif); font-weight: 700; font-size: clamp(2.2rem, 4vw, 3rem); line-height: 1.1; font-variant-numeric: tabular-nums; }
   .label { font-size: 0.95rem; }
   .cite { font-size: 0.78rem; font-weight: 600; white-space: nowrap; }
+  span.cite { white-space: normal; }
+  span.cite a { white-space: nowrap; }
 
   /* chart */
   .chart { position: relative; }
